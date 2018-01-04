@@ -1,10 +1,5 @@
 /* @import "rouge-github"; */
-/*
-@import "normalize";
-@import "fonts";
-*/
 @import "rouge-base16-dark";
-
 
 /* MeyerWeb Reset */
 
@@ -341,7 +336,7 @@ sidemenu {
     background-color: #BBBBFF;
     color: #FDFDFB;
     float:left;
-    position:relative;
+    position:static;
     top: 200px;
     width:170px;
     border: 1px solid #BBBBFF;
