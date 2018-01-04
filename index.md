@@ -19,10 +19,10 @@ git remote add origin https://github.com/takara9/docs.git
 git push -u origin master
 ~~~
 
-# 既存のリポジトリから、リモートのリポジトリへ転送
+## 既存のリポジトリから、リモートのリポジトリへ転送
 
-~~
+~~~
 git remote add origin https://github.com/takara9/docs.git
 git push -u origin master
-~~
+~~~
 
