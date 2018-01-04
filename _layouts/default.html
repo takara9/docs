@@ -9,23 +9,26 @@
   </head>
   <body>
     <div class="wrapper">
-      
+
+      <!-- ヘッド -->
       <header>
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
       </header>
-
+      
+      <!-- サブ・ディレクトリへのリンク -->
       <sidemenu>
 	<ul>
-	  <li class="sidemenu"><a href="/docs/">トップページ</a></li>
-	  <li class="sidemenu"><a href="/docs/sub1">サブ１</a></li>
-	  <li class="sidemenu"><a href="/docs/sub2">サブ２</a></li>
-	  <li class="sidemenu"><a href="{{ '/sub3' | relative_url }}">サブ３</a></li>
+	  <li class="sidemenu"><a href="{{ '/' | relative_url }}">トップDIR</a></li>
+	  <li class="sidemenu"><a href="{{ '/sub1' | relative_url }}">サブDIR１</a></li>
+	  <li class="sidemenu"><a href="{{ '/sub2' | relative_url }}">サブDIR２</a></li>
+	  <li class="sidemenu"><a href="{{ '/sub3' | relative_url }}">サブDIR３</a></li>
 	</ul>
       </sidemenu>
 
+      <!--  Markdown の本体 -->
       <section>
-        {{ content }}
+	{{ content }}
       </section>
       
       <footer>
@@ -33,6 +36,7 @@
         <p><a class="buttons github" href="{{ site.github.repository_url }}">View On GitHub</a></p>
       </footer>
     </div>
+    
   </body>
 </html>
 
