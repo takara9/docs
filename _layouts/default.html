@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    {% seo %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
+        <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
+      </header>
+
+      <section>
+        {{ content }}
+      </section>
+      
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+  </body>
+</html>
+
