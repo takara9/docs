@@ -301,14 +301,16 @@ header li:hover {
 
 
 /* SIDE MENU */
-
+/*
+  
+*/
 sidemenu {
     background-color: #FFFFFF;
     color: #FDFDFB;
     width:170px;
     float:left;
-    //position:fixed;
     border: 1px solid #FFFFFF;
+    position:200px;
     -webkit-border-top-right-radius: 4px;
     -webkit-border-bottom-right-radius: 4px;
     -moz-border-radius-topright: 4px;
