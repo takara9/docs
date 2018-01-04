@@ -307,9 +307,10 @@ header li:hover {
 sidemenu {
     background-color: #BBBBFF;
     color: #FDFDFB;
-    width:170px;
     float:left;
     position:relative;
+    top: 200px;
+    width:170px;
     border: 1px solid #BBBBFF;
     -webkit-border-top-right-radius: 4px;
     -webkit-border-bottom-right-radius: 4px;
