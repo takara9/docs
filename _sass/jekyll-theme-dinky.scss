@@ -14,6 +14,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
+sidemenu,
 time, mark, audio, video {
     margin: 0;
     padding: 0;
@@ -213,7 +214,6 @@ td {
 
 
 /* Header */
-
 header {
     background-color: #111177;
     color: #FDFDFB;
@@ -296,6 +296,97 @@ header li:hover {
     background: -ms-linear-gradient(top, #C3001D 0%,#950119 100%);
     background: linear-gradient(top, #C3001D 0%,#950119 100%);
 }
+
+
+
+
+/* SIDE MENU */
+
+sidemenu {
+    background-color: #FFFFFF;
+    color: #FDFDFB;
+    width:170px;
+    float:left;
+    position:fixed;
+    border: 1px solid #FFFFFF;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 34px 25px 22px 50px;
+    margin: 30px 25px 0 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+p.sidemenu {
+    font-size: 16px;
+}
+
+h1.sidemenu {
+    font-family: Arvo, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.3em;
+    border-bottom: none;
+    margin-top: 0;
+}
+
+
+h1.sidemenu, a.sidemenu, a.name, sidemenu a{
+    color: #fff;
+}
+
+a.sidemenu {
+    text-decoration: underline;
+}
+
+a.name {
+    white-space: nowrap;
+}
+
+sidemenu ul {
+    list-style:none;
+    padding:0;
+}
+
+sidemenu li {
+    list-style-type: none;
+    width:132px;
+    height:15px;
+    margin-bottom: 12px;
+    line-height: 1em;
+    padding: 6px 6px 6px 7px;
+    
+    background: #AF0011;
+    background: -moz-linear-gradient(top, #AF0011 0%, #820011 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
+    background: -webkit-linear-gradient(top, #AF0011 0%,#820011 100%);
+    background: -o-linear-gradient(top, #AF0011 0%,#820011 100%);
+    background: -ms-linear-gradient(top, #AF0011 0%,#820011 100%);
+    background: linear-gradient(top, #AF0011 0%,#820011 100%);
+    
+    border-radius:4px;
+    border:1px solid #0D0D0D;
+
+    -webkit-box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
+    box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
+    
+}
+
+sidemenu li:hover {
+    background: #C3001D;
+    background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
+    background: -webkit-linear-gradient(top, #C3001D 0%,#950119 100%);
+    background: -o-linear-gradient(top, #C3001D 0%,#950119 100%);
+    background: -ms-linear-gradient(top, #C3001D 0%,#950119 100%);
+    background: linear-gradient(top, #C3001D 0%,#950119 100%);
+}
+
+
+
 
 a.buttons {
     -webkit-font-smoothing: antialiased;

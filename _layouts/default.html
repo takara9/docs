@@ -13,13 +13,15 @@
       <header>
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
+      </header>
+
+      <sidemenu>
 	<ul>
 	  <li class="header"> 項目1</li>
 	  <li class="header"> 項目2</li>
 	  <li class="header"> 項目3</li>
 	</ul>
-
-      </header>
+      </sidemenu>
 
       <section>
         {{ content }}
