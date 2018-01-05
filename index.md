@@ -31,7 +31,8 @@ layout: default
 
 ### ホワイト・スペース 
 
-パラグラフ（段落）の間には、ホワイト・スペースを入れる必要があります。マークダウンにホワイトスペースを入れることで、`<p>`が埋め込まれ、HTMLのパラグラフとしてタグが設定されます。
+パラグラフ（段落）の間には、ホワイト・スペースを入れる必要があります。マークダウンにホワイトスペースを入れることで、`<p>`が埋め込まれ、HTMLのパラグラフとしてタグが設定されます。 ここでのホワイト・スペースは空白行のことを指しています。
+
 
 #### ホワイト・スペースが無いケース
 
@@ -39,10 +40,71 @@ layout: default
 絶えて久しい知人からなつかしい手紙をもらったところが、以前知っていたその人の字とは思えないほど古法帖めいた書体に改まっている、うまいけれどもつまらない手紙の字なのに驚くような事も時々ある。しかしこれはその人としての過程の時期であって、やがてはその習字臭を超脱した自己の字にまで抜け出る事だろうと考えてみずから慰めるのが常である。やはり書は習うに越した事はなく、もともと書というものが人工に起原を発し、伝統の重畳性にその美の大半をかけているものなので、生れたままの自然発生的の書にはどうしても深さが無く、その存在が脆弱《ぜいじゃく》で、甚だ味気ないものである。
 
 
-#### ホワイト・スペースが入れたケース
+#### ホワイト・スペースを入れたケース
 
 この頃は書道がひどく流行して来て、世の中に悪筆が横行している。なまじっか習った能筆風な無性格の書や、擬態の書や、逆にわざわざ稚拙をたくんだ、ずるいとぼけた書などが随分目につく。
 
 絶えて久しい知人からなつかしい手紙をもらったところが、以前知っていたその人の字とは思えないほど古法帖めいた書体に改まっている、うまいけれどもつまらない手紙の字なのに驚くような事も時々ある。しかしこれはその人としての過程の時期であって、やがてはその習字臭を超脱した自己の字にまで抜け出る事だろうと考えてみずから慰めるのが常である。やはり書は習うに越した事はなく、もともと書というものが人工に起原を発し、伝統の重畳性にその美の大半をかけているものなので、生れたままの自然発生的の書にはどうしても深さが無く、その存在が脆弱《ぜいじゃく》で、甚だ味気ないものである。
 
+
+
+###
+
+# [](#header-1)Header 1
+
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+## [](#header-2)Header 2
+
+> This is a blockquote following a header.
+>
+> When something is important enough, you do it even if the odds are not in your favor.
+
+
+### [](#header-3)Header 3
+
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
+
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
+
+
+#### [](#header-4)Header 4
+
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+
+
+
+##### [](#header-5)Header 5
+
+1.  This is an ordered list following a header.
+2.  This is an ordered list following a header.
+3.  This is an ordered list following a header.
+
+
+
+###### [](#header-6)Header 6
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+### There's a horizontal rule below this.
+
+* * *
 
