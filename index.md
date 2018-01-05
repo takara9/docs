@@ -47,21 +47,39 @@ layout: default
 絶えて久しい知人からなつかしい手紙をもらったところが、以前知っていたその人の字とは思えないほど古法帖めいた書体に改まっている、うまいけれどもつまらない手紙の字なのに驚くような事も時々ある。しかしこれはその人としての過程の時期であって、やがてはその習字臭を超脱した自己の字にまで抜け出る事だろうと考えてみずから慰めるのが常である。やはり書は習うに越した事はなく、もともと書というものが人工に起原を発し、伝統の重畳性にその美の大半をかけているものなので、生れたままの自然発生的の書にはどうしても深さが無く、その存在が脆弱《ぜいじゃく》で、甚だ味気ないものである。
 
 
+### ヘッダー
 
-###
+次のサンプルコードの様に、ヘッダにタグをつけて、ジャンプ先としてリンクもできます。
 
+~~~
 # [](#header-1)Header 1
+~~~
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+# [](#header-1)ヘッダー 1
 
-## [](#header-2)Header 2
+これはヘッダーの後に続く普通のパラグラフです。 GitHubは、バージョン・コントロールと共同作業のためのコード・ホスティング・プラットフォームです。 これによって、様々な場所のあなたや他の人が共同で働くプロジェクトができます。
 
-> This is a blockquote following a header.
+## [](#header-2)ヘッダー 2
+
+> これはヘッダーに続く引用パラグラフを表現するブロッククオートです。
 >
-> When something is important enough, you do it even if the odds are not in your favor.
+> とても重要なこと、または、好まない変なことの引用として利用します。
 
 
-### [](#header-3)Header 3
+
+### [](#header-3)ヘッダー 3
+
+JavaScriptのコード
+
+~~~
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
+~~~
 
 ```js
 // Javascript code with syntax highlighting.
@@ -71,6 +89,18 @@ var fun = function lang(l) {
 }
 ```
 
+Rubyのコード
+
+~~~
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
+~~~
+
+
 ```ruby
 # Ruby code with syntax highlighting
 GitHubPages::Dependencies.gems.each do |gem, version|
@@ -79,23 +109,27 @@ end
 ```
 
 
-#### [](#header-4)Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
 
 
+#### [](#header-4)ヘッダー 4
 
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+*   ヘッダーに続く番号なし箇条書き
+*   ヘッダーに続く番号なし箇条書き
+*   ヘッダーに続く番号なし箇条書き
 
 
 
-###### [](#header-6)Header 6
+##### [](#header-5)ヘッダー 5
+
+1.  番号付きリスト
+2.  番号付きリスト
+3.  番号付きリスト
+
+
+
+###### [](#header-6)ヘッダー 6
+
+テーブル（表）形式の記述です。
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
@@ -104,7 +138,16 @@ end
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
 
-### There's a horizontal rule below this.
+
+### 水平線
+
+次の方法で、水平線を描画できます。
+
+~~~
+* * *
+~~~
 
 * * *
 
+
+### 中間途上 END
