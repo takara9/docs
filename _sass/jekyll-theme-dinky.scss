@@ -327,11 +327,22 @@ header li:hover {
 }
 
 
-
-/* SIDE MENU */
 /*
-    position:200px;
+
+SIDE MENU
+
+ボタンのエリアを下へ移動するには、topの値を大きくする
+    position:fixed;
+    top: 200px;
+
+
+ボタンのエリアをスクロールに伴って動かすには、
+positon を relative へ変更する
+    position: relative;
+    top: 200px;
+
 */
+
 sidemenu {
     background-color: #BBBBFF;
     color: #FDFDFB;

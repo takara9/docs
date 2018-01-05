@@ -6,8 +6,62 @@
     {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+
+
+    <link type="text/css" rel="stylesheet" href="css/prmenu.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+ 
   </head>
   <body>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="/css/prmenu.js"></script>
+<script>
+  $(document).ready(function(){
+    $('#top-menu').prmenu();
+  });
+</script>
+
+
+<ul id="top-menu">
+  <li><a href="#">メニュー①</a></li>
+  <li><a href="#">メニュー②</a>
+    <ul>
+      <li><a href="#">アイテム</a></li>
+      <li><a href="#">アイテム</a>
+        <ul>
+          <li><a href="#">サブアイテム</a></li>
+          <li><a href="#">サブアイテム</a></li>
+          <li><a href="#">サブアイテム</a></li>
+        </ul>
+      </li>
+      <li><a href="#">アイテム</a></li>
+    </ul>
+  </li>
+  <li><a href="#">メニュー③</a></li>
+  <li><a href="#">メニュー④</a>
+    <ul>
+      <li><a href="#">アイテム</a></li>
+      <li><a href="#">アイテム</a>
+        <ul>
+          <li><a href="#">サブアイテム</a></li>
+          <li><a href="#">サブアイテム</a></li>
+          <li><a href="#">サブアイテム</a></li>
+        </ul>
+      </li>
+      <li><a href="#">アイテム</a></li>
+    </ul>
+  </li>
+  <li><a href="#">メニュー⑤</a></li>
+</ul>
+
+    
+
     <div class="wrapper">
 
       <!-- ヘッド -->
