@@ -4,7 +4,8 @@ layout: default
 
 ## ようこそ、他のページへ
 
-ヤッホー
+このページは、リポジトリの最上位ディレクトリの`anatoher-page.md`で作成しています。サンプル・コードは、Node.jsのJavaScriptで、Expressフレームワークのapp.jsです。　画面をスクロールした時に左側のメニューの位置が固定であることを確認してください。
+
 
 ~~~javascript
 var express = require('express');
