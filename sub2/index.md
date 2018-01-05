@@ -1,27 +1,105 @@
-# サブ２ ドキュメント
+# サブアイテム #2 ドキュメント
 
-人生、生きてるだけで丸儲け
-争わない、楽しみ、チャレンジする
+このドキュメントは、サブ・ディレクトリ sub2 の index.md が表示されています。
 
-これで幸せになれると思うんです。
-それで、人の役に立てれば、最高です。
-
-
-## リポジトリを作って、現在のディレクトリのコードを登録
+HTMLのソースを表示する例です。
 
 ~~~
-echo "# docs" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/takara9/docs.git
-git push -u origin master
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <link type="text/css" rel="stylesheet" href="{{ '/assets/css/prmenu.css' | relative_url }}" />
+                                         
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+ 
+  </head>
+  <body>
+
+    <!------------ メニューバー開始 ------------->
+    <script src="{{ '/assets/js/jquery-3.2.1.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/jquery.prmenu.min.js' | relative_url }}"></script>
+    <script>
+      $(document).ready(function(){
+      $('#top-menu').prmenu();
+      });
+    </script>
+    <ul id="top-menu">
+      <li><a href="{{ '/' | relative_url }}">トップページ</a></li>
+      <li><a href="#">メニュー #2</a>
+	<ul>
+	  <li><a href="https://www.ibm.com/cloud-computing/jp/ja/">IBM Cloud</a></li>
+	  <li><a href="https://kubernetes.io/">Kubernetes Home page</a>
+            <ul>
+              <li><a href="{{ '/sub1' | relative_url }}">サブアイテム #2-2-1</a></li>
+              <li><a href="{{ '/sub2' | relative_url }}">サブアイテム #2-2-2</a></li>
+              <li><a href="{{ '/sub3' | relative_url }}">サブアイテム #2-2-3</a></li>
+            </ul>
+	  </li>
+	  <li><a href="https://qiita.com/MahoTakara">Qiita @MahoTakara</a></li>
+	</ul>
+      </li>
+      <li><a href="#">メニュー #3</a></li>
+      <li><a href="#">メニュー #4</a>
+	<ul>
+	  <li><a href="#">アイテム #4-1</a></li>
+	  <li><a href="#">アイテム #4-2</a>
+            <ul>
+              <li><a href="#">サブアイテム #4-2-1</a></li>
+              <li><a href="#">サブアイテム #4-2-2</a></li>
+              <li><a href="#">サブアイテム #4-2-3</a></li>
+            </ul>
+	  </li>
+	  <li><a href="#">アイテム #4-3</a></li>
+	</ul>
+      </li>
+      <li><a href="#">メニュー #5</a></li>
+    </ul>
+    <!------------ メニューバー終了 ------------->
+    
+
+    <div class="wrapper">
+
+      <!-- ヘッド -->
+      <header>
+        <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
+        <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
+      </header>
+      
+      <!-- サブ・ディレクトリへのリンク -->
+      <sidemenu>
+	<ul>
+	  <li class="sidemenu"><a href="{{ '/' | relative_url }}">トップページ</a></li>
+	  <li class="sidemenu"><a href="{{ '/sub1' | relative_url }}">サブアイテム #1</a></li>
+	  <li class="sidemenu"><a href="{{ '/sub2' | relative_url }}">サブアイテム #2</a></li>
+	  <li class="sidemenu"><a href="{{ '/sub3' | relative_url }}">サブアイテム #3</a></li>
+	</ul>
+      </sidemenu>
+
+      <!--  Markdown の本体 -->
+      <section>
+	{{ content }}
+      </section>
+      
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+        <p><a class="buttons github" href="{{ site.github.repository_url }}">View On GitHub</a></p>
+      </footer>
+    </div>
+    
+  </body>
+</html>
 ~~~
 
-## 既存のリポジトリから、リモートのリポジトリへ転送
 
-~~~
-git remote add origin https://github.com/takara9/docs.git
-git push -u origin master
-~~~
+
 
