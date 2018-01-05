@@ -4,12 +4,12 @@
 
 ## 写真#1
 
-![](/docs/sub1/imgaes/r2d2.png)
+![](/docs/sub1/images/r2d2.png)
 
 
 ## 写真#2
 
-![](/docs/sun1/imgaes/analyzer.png)
+![](/docs/sub1/images/analyzer.png)
 
 
 
