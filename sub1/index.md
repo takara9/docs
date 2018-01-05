@@ -1,27 +1,16 @@
-# サブ１ ドキュメント
+# サブアイテム #1 ドキュメント
 
-人生、生きてるだけで丸儲け
-争わない、楽しみ、チャレンジする
+このドキュメントは、サブ・ディレクトリ1  sub1のindex.mdが表示されています。
 
-これで幸せになれると思うんです。
-それで、人の役に立てれば、最高です。
+## 写真#1
+
+![](imgaes/r2d2.png)
 
 
-## リポジトリを作って、現在のディレクトリのコードを登録
+## 写真#2
 
-~~~
-echo "# docs" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/takara9/docs.git
-git push -u origin master
-~~~
+![](imgaes/analyzer.png)
 
-## 既存のリポジトリから、リモートのリポジトリへ転送
 
-~~~
-git remote add origin https://github.com/takara9/docs.git
-git push -u origin master
-~~~
+
 
