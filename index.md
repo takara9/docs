@@ -157,21 +157,17 @@ end
 
 
 
-### Here is an unordered list:
+### 番号付きリスト
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
+リストの各行先頭に`1.`とするだけで、番号は自動的に付与します。
 
 1.  Item one
 1.  Item two
 1.  Item three
 1.  Item four
 
-### And a nested list:
+
+### ネストしたリスト
 
 - level 1 item
   - level 2 item
@@ -187,16 +183,14 @@ end
   - level 2 item
 - level 1 item
 
-### Small image
+### イメージの挿入
 
 ![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
 
 ![](https://guides.github.com/activities/hello-world/branching.png)
 
 
-### Definition lists can be used with HTML syntax.
+### HTML形式の定義リスト
 
 <dl>
 <dt>Name</dt>
@@ -209,10 +203,15 @@ end
 <dd>Green</dd>
 </dl>
 
+
+
+### 長いパラグラフを１行で表示
+
 ```
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
 ```
 
-```
-The final element.
-```
+
+
+以上
+
