@@ -185,9 +185,14 @@ end
 
 ### イメージの挿入
 
+```
 ![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
 ![](https://guides.github.com/activities/hello-world/branching.png)
+```
+
+![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
+![](https://guides.github.com/activities/hello-world/branching.png)
+
 
 
 ### HTML形式の定義リスト
@@ -220,6 +225,13 @@ end
 
 
 ### 長いパラグラフを１行で表示
+
+~~~
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
+~~~
+
 
 ```
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
