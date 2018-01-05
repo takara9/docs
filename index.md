@@ -1,30 +1,23 @@
-# テスト用ホームページ
+# マークダウンで作成したウェブページのサンプル
 
-人生、生きてるだけで丸儲け
-良い言葉と思うんです。
-争わない、楽しみ、チャレンジする
+GitHubを利用して、情報を共有するプロジェクトが増えています。 例としてKubernetes プロジェクトの文書や IBM Cloud のマニュアルページも GitHubを使って作成されています。 GitHubを利用することでプロジェクトの沢山のメンバーが同時に作業できて、課題の共有や修正依頼を挙げるなど、文書作成のプロジェクトを円滑に進めていく事ができます。
 
-これで幸せになれると思うんです。
-それで、人の役に立てれば、最高です。
+僕はGitHubの人じゃないですが、この記事で紹介する GitHub pages は、HTMLを覚えなくても簡単なマークダウンで作成できて、テーマを設定によって、見やすい書式へ自動変換される優れたものです。 
+
+マークダウンの先頭に、次のコマンドをセットすることで、レイアウトを設定できます。このレイアウトの設定ファイル`default`は `__layouts/default.html` に配置されます。　画面のデザインを変更する事ができます。
+
+~~~
+---
+layout: default
+---
+~~~
+
+テキストは、**ボールド**、_イタリック_、~~取り消し~~、そして `keyword` を利用できます。
+
+
 
 * [同一ディレクトリ内のページへのリンク](another-page)
 * [外部サイトへのリンク](http://www.ibm.com/)
 
-## リポジトリを作って、現在のディレクトリのコードを登録
 
-~~~
-echo "# docs" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/takara9/docs.git
-git push -u origin master
-~~~
-
-## 既存のリポジトリから、リモートのリポジトリへ転送
-
-~~~
-git remote add origin https://github.com/takara9/docs.git
-git push -u origin master
-~~~
 
