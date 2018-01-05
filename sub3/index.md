@@ -1,28 +1,13 @@
-# サブページ３
+# サブアイテム #3 ドキュメント
 
-人生、生きてるだけで丸儲け
-良い言葉と思うんです。
-争わない、楽しみ、チャレンジする
-
-これで幸せになれると思うんです。
-それで、人の役に立てれば、最高です。
-
-
-## リポジトリを作って、現在のディレクトリのコードを登録
+このドキュメントは、サブ・ディレクトリ sub3 の index.md が表示されています。
+これは、YouTubeを埋め込むサンプルです。
 
 ~~~
-echo "# docs" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/takara9/docs.git
-git push -u origin master
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eQnWicBMkbY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 ~~~
 
-## 既存のリポジトリから、リモートのリポジトリへ転送
 
-~~~
-git remote add origin https://github.com/takara9/docs.git
-git push -u origin master
-~~~
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eQnWicBMkbY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
 
