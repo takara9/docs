@@ -226,11 +226,10 @@ end
 
 ### 長いパラグラフを１行で表示
 
-~~~
-```
+この様な長い文を１行で表示したいときは、``` を利用する
+
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-~~~
+
 
 
 ```
