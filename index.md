@@ -69,7 +69,9 @@ layout: default
 
 ### [](#header-3)ヘッダー 3
 
-JavaScriptのコード
+##### JavaScriptのコード
+
+'`'を３個続けることで、コードを表記するエリアになります。 この３個の連続の後にプログラム言語の略称を書くことで、適切な色分けができます。
 
 ~~~
 ```js
@@ -81,6 +83,8 @@ var fun = function lang(l) {
 ```
 ~~~
 
+上記を適用した実施例
+
 ```js
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
@@ -89,7 +93,9 @@ var fun = function lang(l) {
 }
 ```
 
-Rubyのコード
+##### Rubyのコード
+
+同様にRubyのケース
 
 ~~~
 ```ruby
@@ -100,6 +106,7 @@ end
 ```
 ~~~
 
+上記の表記を適用した実施例
 
 ```ruby
 # Ruby code with syntax highlighting
@@ -107,7 +114,6 @@ GitHubPages::Dependencies.gems.each do |gem, version|
   s.add_dependency(gem, "= #{version}")
 end
 ```
-
 
 
 
@@ -143,11 +149,13 @@ end
 
 次の方法で、水平線を描画できます。
 
+* * *
+
 ~~~
 * * *
 ~~~
 
-* * *
+
 
 
 ### 中間途上 END
