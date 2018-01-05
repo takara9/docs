@@ -192,6 +192,7 @@ end
 
 ### HTML形式の定義リスト
 
+```HTML
 <dl>
 <dt>Name</dt>
 <dd>Godzilla</dd>
@@ -202,6 +203,19 @@ end
 <dt>Color</dt>
 <dd>Green</dd>
 </dl>
+```
+
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
+
 
 
 
