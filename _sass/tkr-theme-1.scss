@@ -1,4 +1,8 @@
-/* @import "rouge-github"; */
+/*
+  this scss is baseed on jekyll-theme-dinky.scss
+  https://github.com/pages-themes/dinky
+*/
+
 @import "rouge-base16-dark";
 
 /* MeyerWeb Reset */
@@ -163,24 +167,6 @@ p img, .emoji {
 }
 
 /* Code blocks */
-
-/*
-code, pre {
-    font-family: 'Lucida Console','Courier';
-    color:#000;
-    font-size:14px;
-}
-
-pre {
-    padding: 4px 12px;
-    background: #FDFEFB;
-    border-radius:4px;
-    border:1px solid #D7D8C8;
-    overflow: auto;
-    overflow-y: hidden;
-    margin-bottom: 32px;
-}
-*/
 
 code {
   font-family: Lucida Console, Courier, Terminal;
